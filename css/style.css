@@ -1,0 +1,49 @@
+/*
+main breakpoints 
+1024
+768
+480
+320 */
+
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.box {
+    width: 250px;
+    height: 150px;
+    background-color: blueviolet;
+    /* margin-right: 25px; */
+}
+
+
+
+/* section practice */
+.section-bg {
+    background-color: black;
+    padding: 96px 0;
+}
+.container {
+    max-width: 1140px;
+    width: 90%;
+    margin:0 auto;
+}
+
+.flex-container {
+    display: flex;
+    column-gap: 133px;
+    align-items: center;
+}
+.right-block {
+    color:#fff;
+    max-width: 503.5px;  
+    width: 100%;
+}
+.left-block {
+    width: 503.5px;
+}
+.descr p {
+    font-size: 24px;
+}
