@@ -47,3 +47,112 @@ main breakpoints
 .descr p {
     font-size: 24px;
 }
+
+
+/* h/w section styles */
+.section-grey-bg {
+    background-color:  #F3F3F3;
+    padding: 64px 0;
+}
+.container-block {
+    max-width: 1140px;
+    width: 90%;
+    margin:0 auto;
+}
+.black-element {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.block01 {
+    width: 360px;
+}
+.flex-block {
+    display: flex;
+    column-gap: 30px;
+}
+.black-block {
+    display: flex;
+    align-items: center;
+}
+
+
+/* height problem section */
+.box-height {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.flex-height-block {
+    display: flex;
+    gap: 30px;
+    height: 300px;
+    background-color: lightpink;
+    flex-wrap: wrap;
+}
+
+/* header styles */
+.header-bg {
+    background-color: aquamarine;
+    padding: 20px 0;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul-item {
+    display: flex;
+}
+.action-block {
+    width: 100px;
+    height: 48px;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.burger-bar {
+    display: none;
+}
+
+
+
+/* about styles */
+.container-about {
+    max-width:1179px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex-about {
+    display: flex;
+    column-gap: 20px;
+}
+.right-block-about {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+.left-block-about {
+    width: 779px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 86px;
+}
+.right-small {
+    height: 280px;
+    border: 2px solid red;
+}
+.left-small img {
+    max-width: 779px;
+    width: 100%;
+}
+.right-small img {
+    max-width: 380px;
+    width: 100%;
+}
